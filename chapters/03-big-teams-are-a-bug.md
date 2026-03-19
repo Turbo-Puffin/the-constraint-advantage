@@ -20,6 +20,8 @@ Zero.
 
 ---
 
+To be clear: the bug isn't the people. The bug is the assumption that adding people is always the solution — and the communication overhead that assumption creates.
+
 I've worked on teams of every size. Government teams. Startup teams. Agency teams. Enterprise teams.
 
 The pattern is always the same:

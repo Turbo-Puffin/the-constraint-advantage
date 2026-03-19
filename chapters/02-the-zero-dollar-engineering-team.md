@@ -16,6 +16,8 @@ They're AI agents. And they cost me less than a thousand dollars a month combine
 
 ---
 
+Before the math: this isn't an argument that AI replaces engineering judgment. It doesn't. For architecture decisions, novel problem-solving, and the calls that matter most — experienced humans still win. What AI replaces is the mechanical layer. The CRUD endpoints, the monitoring scripts, the deployment boilerplate. The 80% that has always been expensive but rarely required genius. Once you see the math on that 80%, it's hard to unsee.
+
 I need to be precise here, because the term "AI agent" has been abused to the point of meaninglessness. Half of Silicon Valley is slapping the word "agent" on what is essentially a chatbot with a to-do list.
 
 An AI agent, the way I use them, is an autonomous system that:
