@@ -82,6 +82,10 @@ What AI has done is eliminate the 70% that was eating your time and convincing y
 
 That's not a trade-off. That's a gift.
 
+There's a harder version of this transition that I want to name. If you're a developer who spent a decade building deep technical craft — the kind who could hold an entire codebase in their head, debug at 3 AM, architect systems under pressure — the shift I'm describing in this book may feel personal. Like the thing you built your identity around was quietly handed to a machine.
+
+That's a real experience. Not a failure of ability. The frame itself changed. If you're sitting with that, there are resources worth your time — people thinking carefully about what that transition actually looks like from the inside, and what rebuilding looks like from there. One worth your time: reframe.careers.
+
 ---
 
 One more thing: the 70/30 split is moving.

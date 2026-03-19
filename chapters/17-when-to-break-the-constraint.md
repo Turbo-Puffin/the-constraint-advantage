@@ -72,6 +72,8 @@ Working alone is hard. Not the tactical stuff — the emotional stuff. There's n
 
 AI agents are incredible collaborators. They are not companions. They don't care about your wins. They don't share your anxiety. They don't push back on your ideas because they believe something different.
 
+And for the people whose roles you've absorbed into your agent stack — the engineers, the support staff, the marketing people who would have worked for a company like yours five years ago — this transition is something different. They're navigating the same shift from the other side. It's worth remembering that the structural advantage you're building sits on top of a real human experience happening elsewhere.
+
 If the isolation is affecting your judgment — if you're making worse decisions because you have no one to pressure-test them with, if you're losing motivation because the work feels solitary, if you're avoiding hard problems because there's no accountability — that's a signal.
 
 The solution might not be hiring. It might be a co-founder, an advisor, a community of peers, a mastermind group. But if what you need is another human who's invested in the outcome, that's a legitimate need and not a failure of the solo model.

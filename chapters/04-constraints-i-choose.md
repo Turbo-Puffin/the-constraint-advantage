@@ -10,9 +10,9 @@ That's the shift nobody talks about. Not "I can't afford a team" but "I've thoug
 
 ---
 
-There's a concept in architecture called the constraint-driven design. The best bridges aren't built despite their constraints — they're built *because* of them. The span you need to cross, the load you need to carry, the materials you have available — these constraints don't limit the design. They *generate* the design. Remove the constraints and you don't get a better bridge. You get a blob of indecision.
+There's a concept in architecture called constraint-driven design. The best bridges aren't built despite their constraints — they're built *because* of them. The span you need to cross, the load you need to carry, the materials you have available — these constraints don't limit the design. They *generate* the design. Remove the constraints and you don't get a better bridge. You get a blob of indecision.
 
-I've watched dozens of founders celebrate funding rounds. They post on LinkedIn about the "exciting chapter ahead" and the team they're about to build. Two years later, half of them are managing the team instead of building the product. They're having conversations about culture and process and organizational structure. The thing they were building got slower.
+I've watched dozens of founders celebrate funding rounds. They post about the "exciting chapter ahead" and the team they're about to build. Two years later, half of them are managing the team instead of building the product. The thing they were building got slower.
 
 The funding removed their constraints. And without constraints, they built a company in the shape of every other company.
 
@@ -38,11 +38,11 @@ Some of these I never broke. Some I've tested and come back to. The point isn't 
 
 When you have a budget, you allocate. When you allocate, you prioritize. When you prioritize, you understand your actual business better.
 
-A company with unlimited AI spend becomes sloppy. Spinning up agents for every half-baked idea. Running expensive models on tasks that a cheap model handles just fine. Using AI to feel busy rather than to accomplish something specific.
+A company with unlimited AI spend becomes sloppy. Spinning up agents for every half-baked idea. Running expensive models on tasks that a cheap model handles fine. Using AI to feel busy rather than to accomplish something specific.
 
 A company with a tight AI budget asks: *what does this machine actually need to do?* And then it designs the machine precisely. No fat. No waste. Every dollar pointed at something that produces value.
 
-My monthly AI bill is predictable because I know exactly what each agent does, why it exists, and what it would cost to not have it. Most founders can't tell you what their team is doing in that level of detail. I can tell you what my AI is doing task by task.
+Most founders can't tell you what their team is doing task by task. I can tell you exactly what my AI is doing, why each agent exists, and what it would cost to not have it.
 
 ---
 
@@ -50,22 +50,34 @@ The counter-argument I hear most: "You're leaving money on the table by not scal
 
 Maybe. Probably. I'm sure there are opportunities I've missed because I didn't have three salespeople or a growth team or a VP of partnerships.
 
-But here's what I also know: companies that scale too fast die of complexity more often than they die of missed opportunity. The startup graveyard is full of companies that raised too much, hired too many, and collapsed under the weight of their own overhead before the product was ready.
+But companies that scale too fast die of complexity more often than they die of missed opportunity. The startup graveyard is full of companies that raised too much, hired too many, and collapsed under the weight of their own overhead before the product was ready.
 
-I'd rather be a small, profitable, low-overhead company that's still here in ten years than a well-funded, 50-person operation that ran out of runway because the costs scaled faster than the revenue.
+I'd rather be a small, profitable, low-overhead company that's still here in ten years than a well-funded, 50-person operation that ran out of runway because costs scaled faster than revenue.
 
-Constraints aren't a consolation prize for not raising money. They're a survival mechanism. They're a decision-making framework. They're the thing that keeps you from building a company that needs a Director of Operations to manage the person who schedules the meeting that updates the spreadsheet tracking the progress of the thing you actually care about.
+Constraints aren't a consolation prize for not raising money. They're a survival mechanism. They're the thing that keeps you from building a company that needs a Director of Operations to manage the person who schedules the meeting that updates the spreadsheet tracking the progress of the thing you actually care about.
 
 ---
 
 There's one more constraint I haven't mentioned yet, because it's the hardest one to talk about: ego.
 
-Founders get their identity wrapped up in headcount. "We're a 12-person team" feels like an accomplishment in a way that "it's just me" doesn't. There's status in the org chart. There's something that feels real about having a team.
+Founders wrap their identity in headcount. "We're a 12-person team" feels like an accomplishment in a way that "it's just me" doesn't. There's status in the org chart. There's something that feels real about having people report to you.
 
-I had to let that go.
+I had to let that go. Not the ambition. Not the drive. Just the idea that the size of the team is evidence of the quality of the work.
 
-Not the ambition. Not the drive. Not the desire to build something real. Just the idea that the size of the team is evidence of the quality of the work.
+It isn't. It never was.
 
-It isn't. It never was. The best software companies in the world — the ones that actually changed how people live — were almost all built by embarrassingly small teams. The org chart is the thing you build *after* you've built something worth having.
+But here's what I didn't expect: letting go of the headcount identity didn't leave a hole. It left a question. If the team isn't the thing that makes the work real, then what is?
+
+The answer, for me, was the work itself. The thing that ships. The user who solves their problem. The revenue that doesn't require anyone else's permission to exist.
+
+That's a harder identity to build. There's no org chart to show people. No "we" to hide behind. Just you, your judgment, and what you shipped this week.
+
+It took me longer than I'd like to admit to stop apologizing for it.
+
+Now I think it's the most honest version of building a company that exists.
+
+---
 
 Choose your constraints before the world chooses them for you. Because the ones you choose will make you sharper. The ones the world chooses will just make you smaller.
+
+The org chart is the thing you build *after* you've built something worth having. Not before.

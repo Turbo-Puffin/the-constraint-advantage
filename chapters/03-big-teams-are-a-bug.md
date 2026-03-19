@@ -20,6 +20,8 @@ Zero.
 
 ---
 
+To be clear: the bug isn't the people. The bug is the assumption that adding people is always the solution — and the communication overhead that assumption creates.
+
 I've worked on teams of every size. Government teams. Startup teams. Agency teams. Enterprise teams.
 
 The pattern is always the same:
@@ -40,15 +42,13 @@ You're not scaling. You're inflating.
 
 Fred Brooks wrote about this in 1975. *The Mythical Man-Month.* His core insight: adding people to a late project makes it later. The communication overhead of each new person outweighs their productive contribution.
 
-That was fifty years ago. The book is still relevant because the fundamental problem hasn't changed. Human communication is expensive. Coordination is expensive. Alignment is expensive.
+Fifty years ago. Still true. Because the fundamental problem — human coordination is expensive — hasn't changed.
 
 What *has* changed is that we now have an alternative.
 
 AI agents don't need to communicate with each other through meetings. They share state through databases and files. They don't need to "align on priorities" because they have one priority: whatever you told them to do. They don't have opinions about the roadmap. They don't politic for resources. They don't form factions.
 
-When I need to build a feature, I don't schedule a meeting to discuss the feature, then a sprint planning session to size the feature, then assign the feature to an engineer who needs two days of context before starting, then a code review meeting when they're done, then a QA cycle, then a deployment approval.
-
-I describe the feature. The agent builds it. I review it. It ships.
+When I need to build a feature, I describe it. The agent builds it. I review it. It ships.
 
 Start to finish: hours, not weeks.
 
@@ -56,41 +56,31 @@ Start to finish: hours, not weeks.
 
 "But what about complex problems that need multiple perspectives?"
 
-Good question. And it reveals a real advantage of human teams — diverse viewpoints catch blind spots.
+Most "multiple perspectives" in team settings are *redundant* perspectives. Eight engineers debating PostgreSQL vs. MongoDB aren't bringing eight unique worldviews. They're having the same argument that's been had ten thousand times, decided by whoever is most stubborn or most senior.
 
-But I'd argue that most of the "multiple perspectives" in team settings are *redundant* perspectives. Eight engineers in a room debating whether to use PostgreSQL or MongoDB aren't bringing eight unique worldviews. They're having the same argument that's been had ten thousand times, and the decision will be made based on whoever is most stubborn or most senior, not on the merits.
+The actually valuable perspectives — "this has a security flaw," "this won't scale past 10K users," "the customer doesn't actually want this" — don't require eight people. They require *one* person who's thought carefully about it.
 
-The actually valuable perspectives — "this approach has a security flaw," "this won't scale past 10K users," "the customer doesn't actually want this" — don't require eight people. They require *one* person who's thought carefully about it.
-
-I get my "multiple perspectives" from AI. I ask it to argue against my approach. I ask it to find flaws. I ask it to consider edge cases I'm missing. I get 90% of the value of a team brainstorm in 5% of the time, with 0% of the politics.
+I get my multiple perspectives from AI. Argue against my approach. Find the flaws. Consider the edge cases. I get 90% of the value of a team brainstorm in 5% of the time, with 0% of the politics.
 
 ---
 
-Here's the math that made me a believer.
+The small-team examples everyone cites — Instagram's 13 engineers, WhatsApp's 55 — are real but they're acquisition stories from a decade ago. The more interesting proof is happening right now, in companies you've never heard of, run by one person who decided the math didn't require a team.
 
-In 2023, Basecamp — the company that literally wrote the book on small teams — had about 75 employees running a business with millions of users.
+The pattern is consistent: headcount and output are not correlated the way people assume. What *is* correlated with output is clarity — about what you're building, why it matters, and what work actually needs to happen versus what work feels productive.
 
-In 2024, WhatsApp was acquired for $19 billion with 55 engineers.
+Most work in most companies is coordination work. Work about work. Take that away and what's left?
 
-Instagram had 13 employees when Facebook bought it for $1 billion.
-
-These are extreme examples, but they prove the point: headcount and output are not correlated the way people assume.
-
-The companies that change industries are almost always small teams that stayed small longer than anyone thought possible. They achieved this by being disciplined about what work actually needs to happen versus what work feels productive.
-
-Most work in most companies is coordination work. It's work about work. Meetings about what to build, documents about what was decided, updates about what's in progress, reviews of what was done.
-
-Take all that away and what's left? The actual building.
+The actual building.
 
 That's what a solo operator with AI agents has. Just the building. No overhead. No drag. No organizational theater.
 
 ---
 
-I'm not naive about this. There are companies that genuinely need large teams. If you're building a physical product, you need manufacturing. If you're in healthcare, you need licensed professionals. If you're SpaceX, you need rocket engineers and you can't automate the welding (yet).
+I'm not naive about this. Physical products need manufacturing. Healthcare needs licensed professionals. SpaceX needs rocket engineers.
 
 But for software companies? Digital products? Content businesses? Professional services?
 
-The number of people you actually *need* is almost certainly smaller than the number of people you *have.* And for a surprising number of these businesses, the right number might be one.
+The number of people you actually *need* is almost certainly smaller than the number you *have.* And for a surprising number of these businesses, the right number might be one.
 
 One person who's clear about what they're building and why.
 
