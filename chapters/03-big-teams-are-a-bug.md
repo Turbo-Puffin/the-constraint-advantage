@@ -22,7 +22,7 @@ Zero.
 
 ---
 
-I've worked on teams of every size. Government teams. Startup teams. Agency teams. Enterprise teams.
+I've worked on teams of every size. Agency teams. Government teams. Startup teams.
 
 The pattern is always the same.
 
@@ -56,13 +56,49 @@ Start to finish: hours, not weeks.
 
 ---
 
+I worked on this firsthand at the City of Boston.
+
+Municipal government is not supposed to be fast. The constraints are real: union rules, budget cycles, approval chains, the pace of public accountability. Every decision lives in public. Every dollar is someone's tax money.
+
+But inside those constraints, the team we built moved. We made decisions in hours, not weeks. We shipped boston.gov and took it open source in October 2016. Other cities forked it. It became a national model.
+
+We didn't do that by hiring more people. We did it by being ruthlessly clear about what mattered.
+
+"Developing with people, not for people" was the philosophy. It sounds simple. It's not. It means every feature decision starts with: does this solve a real problem for a real person who needs to use this? Not a use case document. Not a stakeholder assumption. A real person.
+
+When you have structural constraints, you can't afford to build things nobody needs. You have to prioritize. Prioritizing forces clarity. Clarity is fast.
+
+That small, constrained, over-accountable team built something that held up. Something other cities wanted. Not despite the constraints. Because of them.
+
+---
+
+The org-chart problem shows up everywhere I've worked since Boston.
+
+I see it most clearly in public sector digital transformation, where Rudder works now. Government agencies are often large by design. Dozens of departments. Hundreds of stakeholders. Everyone has an opinion about the website because everyone uses it.
+
+We worked with a state early childhood agency that needed their public-facing site rebuilt. The existing site was organized around the agency's org chart. Not around what families actually needed to do.
+
+Families who landed on the site needed to find child care, understand their options, apply for benefits. That's it. Three jobs. Clear and human.
+
+The old site made them navigate by department. You had to know which program you were looking for before you could find it. That's the org chart solving its own problem. It tells the agency's story. It doesn't help the family.
+
+We rebuilt the site around those three jobs. WCAG-compliant. Responsive. Built to work on whatever device someone had in their hand when they needed it.
+
+The site got better because we stripped out what the org chart was demanding and kept only what families needed. The constraint wasn't the budget or the timeline. The constraint was: we only build what serves the user.
+
+That's a choice. And it's a hard one in an environment where every department head wants a presence on the homepage.
+
+But the outcome speaks. A site built around user need is one people can actually use.
+
+---
+
 "But what about complex problems that need multiple perspectives?"
 
 Good question. It reveals a real advantage of human teams. Diverse viewpoints catch blind spots. That's real.
 
 But most "multiple perspectives" in team settings are redundant perspectives. Eight engineers in a room debating PostgreSQL vs. MongoDB aren't bringing eight unique worldviews. They're having the same argument that's happened ten thousand times before. The decision will go to whoever is most stubborn or most senior. Not to the best answer.
 
-The valuable perspectives, "this approach has a security flaw," "this won't scale past 10K users," "the customer doesn't actually want this," don't require eight people. They require one person who's thought carefully about it.
+The valuable perspectives — "this approach has a security flaw," "this won't scale past 10K users," "the customer doesn't actually want this" — don't require eight people. They require one person who's thought carefully about it.
 
 I get my multiple perspectives from AI. I ask it to argue against my approach. I ask it to find the flaws. I ask it to consider edge cases I'm missing. I get 90% of the value of a team brainstorm in 5% of the time. With 0% of the politics.
 
@@ -90,9 +126,9 @@ Strip all of that away and what's left? The actual building.
 
 That's what a solo operator with AI agents has. Just the building. No overhead. No drag. No organizational theater.
 
-I ran my first business with a team. Every hire felt like progress. Every new person on the org chart felt like leverage. Then I watched the meetings multiply. The Slack channels multiply. The "who owns this" conversations multiply. The output per person dropped every quarter even as the total headcount climbed.
+I ran a team at an agency. Every hire felt like progress. Every new person on the org chart felt like leverage. Then I watched the meetings multiply. The Slack channels multiply. The "who owns this" conversations multiply. The output per person dropped every quarter even as total headcount climbed.
 
-I ran my next business alone, with tools. No org chart. No coordination layer. No overhead. Output per week went up. I moved faster at month six than I had at month one because I wasn't managing a team. I was just building.
+I ran my next work alone, with tools. No org chart. No coordination layer. No overhead. Output per week went up. I moved faster at month six than I had at month one because I wasn't managing a team. I was just building.
 
 That's not a story about AI. That's a story about what happens when you remove the drag.
 

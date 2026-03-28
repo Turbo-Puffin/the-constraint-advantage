@@ -4,7 +4,7 @@ I have never been on-call.
 
 That's a strange thing to say when you're the only person running your company's infrastructure. If it's all on you, logic says you're always on call. If the server goes down at 3 AM, you're the one who wakes up.
 
-That's how it was for the first few years. My phone was always on. Every Slack alert was a potential 2 AM situation. I'd wake up, open the laptop, squint at the logs. Sometimes it was nothing. Sometimes it was real. Either way, sleep was optional in a way that slowly grinds you down.
+That's how it was for the first few years. My phone was always on. Every alert was a potential 2 AM situation. I'd wake up, open the laptop, squint at the logs. Sometimes it was nothing. Sometimes it was real. Either way, sleep was optional in a way that slowly grinds you down.
 
 Then I changed how I built the system. And the 3 AM calls stopped.
 
@@ -16,15 +16,13 @@ The first time it happened, I almost didn't believe the log.
 
 I woke up to a message from my monitoring agent. The timestamp was 3:17 AM. The message was:
 
-*"Production database hit connection pool limit at 02:58 UTC. Identified root cause: batch job in analytics service running uncapped queries during peak traffic window. Killed the batch job, connection pool cleared. Rescheduled batch for 05:00 UTC. Stack trace and fix committed to branch `fix/analytics-batch-throttle`. Recommend merging and deploying when you're awake. Services healthy, no user-facing impact."*
+*"Production database hit connection pool limit at 02:58 UTC. Identified root cause: batch job in analytics service running uncapped queries during peak traffic window. Killed the batch job, connection pool cleared. Rescheduled batch for 05:00 UTC. Stack trace and fix committed to branch. Recommend merging and deploying when you're awake. Services healthy, no user-facing impact."*
 
 The incident started at 2:58. It was diagnosed, fixed, and documented by 3:17. Nineteen minutes. I read about it over coffee.
 
 I reviewed the fix. It was correct. I merged it, deployed it, and closed the branch. The whole review took four minutes.
 
-Four minutes of my time for a production incident that, two years earlier, would have cost me two hours of sleep and a foggy morning.
-
-For the next year, I kept a running document of every production incident handled autonomously while I wasn't working. By the end of the year, it had forty-three entries. Forty-three incidents. Forty-three times I woke up to a summary instead of a crisis.
+Four minutes of my time for a production incident that, a year earlier, would have cost me two hours of sleep and a foggy morning.
 
 That document is one of the most persuasive things I own.
 
@@ -74,11 +72,11 @@ There's another shift, harder to name. Before agents, I was always in the loop. 
 
 At first that felt like losing information. It wasn't. It was gaining distance. I went from being the person living inside the system to being the person reading reports about it. That's a better position to reason from. You see patterns you can't see when you're the one in the weeds.
 
-The forty-three incidents in my document weren't just forty-three times I slept through a problem. They were forty-three data points I could analyze together. I could see that twelve of them were the same category of issue. I could see that seven involved a specific service. I could make architectural decisions based on the pattern, instead of patching the symptom each time.
+Incidents I kept a record of weren't just individual problems handled. They were data points I could analyze together. I could see that certain categories of issue came up repeatedly. I could see which services caused the most trouble. I could make architectural decisions based on the pattern, instead of patching the symptom each time.
 
 You can't see patterns when you're inside the incident. Distance is a feature.
 
-There's a version of this mental shift available to every part of the business, not just infrastructure. When you stop being the person who handles the 3 AM version of customer support, of invoice follow-up, of content publishing, you get the same thing. Better design. More explicit procedures. And the distance to see what's actually happening instead of just reacting to it.
+There's a version of this mental shift available to every part of the business, not just infrastructure. When you stop being the person who handles the routine version of customer support, of invoice follow-up, of content publishing, you get the same thing. Better design. More explicit procedures. And the distance to see what's actually happening instead of just reacting to it.
 
 ---
 
@@ -116,13 +114,13 @@ How you build this matters as much as what you build.
 
 The instinct is to start with the hardest thing. Give the agent full access, write a grand playbook, and see what happens. That's how you end up with an agent that makes confident decisions based on misunderstood context.
 
-I built this incrementally. Started with read-only. The agent observed incidents, analyzed logs, and wrote a report on what it would have done if it had the access. I reviewed those reports for a few weeks. When its recommendations matched what I would have done, I gave it limited write access. Restarting one service, on one condition.
+Build this incrementally. Start with read-only. The agent observes incidents, analyzes logs, and writes a report on what it would have done if it had the access. Review those reports for a few weeks. When its recommendations match what you would have done, give it limited write access. Restarting one service, on one condition.
 
-Then I watched. When it worked, I expanded. When it didn't, I updated the runbook and watched again.
+Then watch. When it works, expand. When it doesn't, update the runbook and watch again.
 
-The whole thing took about three months from "agent observing" to "agent handling incidents autonomously." Three months is not long. But cutting corners on that ramp would have been expensive. You're building trust in a system that will take actions in your name while you're asleep. That deserves some patience.
+Expect this to take several months from "agent observing" to "agent handling incidents autonomously." Cutting corners on that ramp is expensive. You're building trust in a system that will take actions in your name while you're asleep. That deserves some patience.
 
-The other thing I'd recommend: keep the agent's reasoning visible. When it handles an incident, I get a full log. Not just "incident resolved" but "I saw X, I interpreted that as Y, I took action Z because the runbook for Y says Z." The reasoning chain. That's what lets me catch a case where the agent's logic was correct but its interpretation was off. Which happens, especially early.
+The other thing worth doing: keep the agent's reasoning visible. When it handles an incident, get a full log. Not just "incident resolved" but "I saw X, I interpreted that as Y, I took action Z because the runbook for Y says Z." The reasoning chain. That's what lets you catch a case where the agent's logic was correct but its interpretation was off. Which happens, especially early.
 
 An agent that shows its work is an agent you can actually trust. Not because it's always right. Because you can see where it isn't and fix it.
 
@@ -138,7 +136,7 @@ A solo operator without agents is constantly pulled toward the reactive. You han
 
 This is the actual trap of running solo. Not the loneliness. Not the uncertainty. The constant interruption by things that are urgent but not important. They never stop coming, and each one costs you more than the time it takes. It costs you the thread you were holding. The thought you were developing. The thing you were almost ready to act on.
 
-Every interruption has a switching cost. The literature on this is pretty clear. But you feel it before you read it. You know what it's like to have a good morning of focused work exploded by a production alert at 10:30 AM. You know how long it takes to get back to where you were. Sometimes you don't get back.
+Every interruption has a switching cost. You know what it's like to have a good morning of focused work interrupted by a production alert. You know how long it takes to get back to where you were. Sometimes you don't get back.
 
 A solo operator with agents handles the reactive automatically. The incidents, the emails, the monitoring, the routine. The agents take the 3 AM calls. They also take the 10:30 AM calls. They handle the Sunday complaints. They flag what needs you and resolve what doesn't.
 

@@ -63,7 +63,7 @@ The validation phase used to take months and cost real money. Now it takes two w
 
 ## Month 1-3: Build the Smallest Possible Version
 
-Once you have signal, people who clicked or people who said "I would pay for that" with enough conviction that you believe them, build.
+Once you have signal — people who clicked or people who said "I would pay for that" with enough conviction that you believe them — build.
 
 Build the smallest thing that delivers the core value. Not the full vision. Not the thing you'd be proud to show your former colleagues. The thing that solves the specific problem for the specific person who told you they'd pay.
 
@@ -150,11 +150,11 @@ Give each agent two to four weeks to prove itself before adding the next. If it'
 
 **Speed.** A solo founder can ship in weeks what used to take quarters. The compression is real and still accelerating.
 
-**Cost.** The infrastructure to run a software business got dramatically cheaper. SaaS products that cost $20K/year to build and operate in 2020 cost $3-5K today.
+**Cost.** The infrastructure to run a software business got dramatically cheaper. Products that cost $20K/year to build and operate in 2020 cost $3-5K today.
 
-**Scope.** One person can realistically operate more product surface area than ever before. I run four companies. That was not possible six years ago.
+**Scope.** One person can realistically operate more product surface area than ever before. Running multiple products as a solo operator was not possible six years ago.
 
-**Moat.** The traditional technical moat, "we have engineers and you don't," is weaker than it's ever been. The new moat is distribution, brand, and relationships. These are still human things. AI doesn't replicate them.
+**Moat.** The traditional technical moat — "we have engineers and you don't" — is weaker than it's ever been. The new moat is distribution, brand, and relationships. These are still human things. AI doesn't replicate them.
 
 **Competition.** Because it's easier to build, more things get built. Standing out requires better judgment about what's worth building, not just better execution of building it.
 

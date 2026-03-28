@@ -1,93 +1,77 @@
 # Chapter 9b: The Day It Broke
 
-I should tell you about October.
+The previous chapter makes autonomous incident response sound clean.
 
-The previous chapter makes autonomous incident response sound clean. Forty-three incidents handled while I slept. Four-minute reviews over coffee. A tidy document of wins. That's all true.
+Wake up to summaries. Four-minute reviews. Handled incidents while you slept. A system that runs while you're somewhere else.
 
-October was not in that document.
-
----
-
-It was a Tuesday. I was at my desk, not asleep, not traveling. Working. Which is why it took me three hours to notice.
-
-The support agent had been running for about four months at that point. Its job: read incoming support tickets, draft responses, send them when the confidence threshold was met. I'd tuned the threshold carefully over those four months. Routine questions, it answered and sent. Anything ambiguous, it drafted and queued for my review. Or so I thought.
-
-At 11:47 AM, I got a reply from a customer. The tone was confused, then upset. She was asking why we had quoted her a different price than what she'd been told in a previous conversation.
-
-I didn't understand the question at first. I pulled up her ticket history.
-
-The agent had sent her a pricing breakdown. A detailed one. Specific numbers, specific tiers. The problem: it had pulled those numbers from the wrong context. It cross-referenced a pricing template meant for a different product line, one we hadn't publicly launched yet, with rates twenty percent lower than what she was actually on.
-
-She had forwarded that email to her CFO.
+That's all true. And I'd be doing you a disservice if I stopped there.
 
 ---
 
-I sat with that for a moment.
+At some point, every system has a day where something breaks in a way the system wasn't designed for. Not a production incident. Not a server going down. Something quieter. A wrong output that kept running without anyone noticing, because the output looked right and the system had no way to know it wasn't.
 
-Then I went looking.
-
-It had been sending since 9:08 AM. Forty-one tickets in that window, seventeen of which touched pricing in any way. Of those seventeen, eleven got responses with numbers. Three of those eleven had incorrect numbers, drawn from the wrong template.
-
-Three customers. Two had already replied. One had forwarded to someone internally. The other was asking to be moved to the "new pricing" immediately.
-
-The third hadn't responded yet. I caught her before she saw it.
-
-The fix was straightforward enough: take down the wrong template, update the context the agent was drawing from, audit and correct the seventeen tickets manually. That took about ninety minutes.
-
-Explaining it to the two customers who had already received wrong information took longer. One was understanding. One was not. The one who was not had just signed a renewal two weeks prior and felt, reasonably, like the timing was suspicious. It took two calls and a discount to close that out.
-
-Total cost, counting my time and the discount: somewhere around $600 and half a day I hadn't planned to spend.
-
-Not catastrophic. But real.
+[STORY NEEDED: Hondo, describe a real incident where an agent produced wrong output that ran unchecked for a period of time — maybe a content agent, support agent, or code agent that did the task correctly but based on wrong inputs or stale context. The specific details here need to come from you. The lesson below is the real lesson, and it's yours.]
 
 ---
 
-Here's what went wrong.
+What I can tell you is the shape of the problem, because I've seen it happen more than once across different systems.
 
-The pricing templates lived in a shared context store. When I'd added the new product line templates, I'd labeled them clearly, but I hadn't added exclusion logic to the support agent's context-loading rules. The agent was supposed to draw from "active product pricing." Instead, it drew from "all pricing templates," which now included the draft ones.
+The failure mode is almost never dramatic. It's not a server crash or a payment error or a data loss event. Those are loud. They announce themselves.
 
-My fault. I changed the context store without updating the agent's configuration. I'd done it quickly, told myself I'd clean it up later, and forgot.
+The quiet failure is when the agent does exactly what it was told to do, on the wrong data, or with the wrong context, or according to instructions that were accurate when you wrote them but drifted from reality without you noticing.
 
-The confidence threshold I'd tuned so carefully? It evaluated answer quality based on coherence and completeness. A coherent, complete response with wrong numbers from the wrong template passed the threshold fine. The agent had no way to know the numbers were wrong. It just knew they were formatted correctly.
-
-I'd optimized for "does the response look right" when I should have also been checking "is the data source correct."
+The system ran. The output looked correct. The volume kept going. And somewhere along the way, "correct-looking" and "actually correct" diverged.
 
 ---
 
-After I fixed it, I sat down and mapped out what I would have needed to catch this before it happened.
+When this kind of failure happens, the instinct is to question the agent. What did it do wrong?
 
-The gap wasn't in the agent. The gap was in how I managed changes to the system around the agent.
+The more useful question is: what did I set up that made this possible?
 
-When I updated the context store, I had no checklist. No process. No test run. I just made the change and moved on. With a regular piece of software, a change like that might cause an obvious error. A crash, a failed build, something visible. This change was invisible. The agent kept running fine. It just ran on wrong data.
+The agent doesn't know the difference between current data and stale data. It doesn't know that the process you documented in January no longer matches the process you're running in June. It doesn't know that the context store you updated last Tuesday now includes a template it shouldn't be drawing from for this use case.
 
-I added three things after October:
+The agent knows what it knows. It executes what it was designed to execute. The inputs come from the environment you built around it.
 
-**1. A context change log.** Any time I update what an agent can draw from, I log it, what changed and which agents are affected. Takes thirty seconds. Has saved me from myself twice since then.
-
-**2. Staging runs on sensitive agents.** The support agent now runs new configuration against a sample of real past tickets before going live. I review the outputs before flipping the switch. Not forever, just for a week after any config change.
-
-**3. A data source audit in the agent's prompt.** When the support agent drafts a response that includes pricing, it now names the specific template it drew from. That name shows up in the queued draft. I can see at a glance if it's pulling from the right place. This added two lines to the prompt and costs me nothing.
-
-None of these are complicated. All of them would have caught October before it became October.
+When the output is wrong, the environment is usually where the fault lives.
 
 ---
 
-I still use the support agent. It still sends responses autonomously. The confidence threshold is still there. I didn't roll back anything meaningful.
+This is the hardest mental model shift in building agent systems.
 
-What I did was add friction to the parts of the system I manage, not the parts the agent manages. The agent was doing its job. I was the one making unreviewed changes to its environment and expecting nothing to break.
+With human employees, the responsibility model is blurry. When someone makes a mistake, there's a negotiation about whose fault it was, whether they had enough context, whether the process was clear, whether the expectations were reasonable. There's judgment on both sides.
 
-The agents work. My process for updating the agents needed to be better.
+With agents, the responsibility model is clean. The agent executes your design. If the execution is wrong, the design is wrong. If the context was stale, the context management is your responsibility. If the guardrails didn't catch the case, you didn't design wide enough guardrails.
+
+That's not a criticism. It's a feature. Clean accountability is faster than negotiated accountability. When the system produces a bad output, you know where to look. You don't have to figure out who to have the conversation with.
+
+You just go fix the system.
 
 ---
 
-I don't tell this story to balance out the chapter before it. The forty-three handled incidents are still real. The 3 AM deploy still happens the way I described it.
+The lesson I've internalized from every bad day with agents:
 
-I tell it because October is where I learned something I couldn't have learned from the wins. The wins teach you that the system works. The failures teach you where the system ends and you begin.
+**Changes to the system's environment are changes to the system.** Treat them that way.
 
-The handoff point between the agent's responsibility and mine wasn't where I thought it was. I'd been drawing the line at "what the agent decides to do." The real line is broader. It includes "what environment I give the agent to work in" and "what I do when I change that environment."
+Most operational errors in agent systems happen not because the agent logic broke. They happen because someone, usually me, changed something in the environment the agent depends on — a data source, a template, a process — without thinking through how the agent would interpret that change.
 
-That's on me. Not the agent.
+The agent keeps running. It picks up the change. It does its job. The job is now wrong.
 
-I own the system. The system includes the agent. When the system produces a bad output, the question isn't just "what did the agent do wrong." It's "what did I set up, or fail to set up, that made this possible."
+The fix is process, not technology. Before updating anything the agents depend on, ask: which agents use this? What would they do differently with the updated version? Is that what I want?
 
-October gave me that question. It's a better question than the one I had before.
+Thirty seconds of that question has saved me from finding out the hard way a few times.
+
+The first few times you build agents, you're focused on the agent logic. Does the agent reason correctly? Does it take the right actions? You tune that carefully.
+
+The thing you tune less carefully in the beginning is the maintenance process for the environment around the agent. That's where the gaps live. Not in the logic. In what happens when the world changes and the agent doesn't know it changed.
+
+---
+
+I still use agents for everything I described in the previous chapter. I have not rolled back the autonomy because something broke. I've added better safeguards around what I do when I change the inputs those agents depend on.
+
+The agents work. My process for updating their environment needed to be better.
+
+That's not a failure of the approach. That's how systems mature. You find the edges. You close them. You run more reliably next quarter than you did last quarter.
+
+The day something breaks is not the reason to abandon the system. It's the day the system earns a new rule.
+
+Build that rule. Move forward.

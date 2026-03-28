@@ -30,13 +30,13 @@ Let me break down what an actual agent needs to function.
 
 **Tools.** The ability to take action. Read a file. Write a file. Run a command. Call an API. Send an email. Make a payment. Query a database. The more tools an agent has, the more it can do. Tools are the agent's hands.
 
-**A runtime.** The loop that runs the agent: give it the goal, let it think, watch it take action, evaluate the result, let it think again, take another action. The runtime is what makes it *autonomous* rather than a one-shot query.
+**A runtime.** The loop that runs the agent: give it the goal, let it think, watch it take action, evaluate the result, let it think again, take another action. The runtime is what makes it autonomous rather than a one-shot query.
 
 **Guardrails.** What it's not allowed to do. This is the one most people forget to design carefully, and it's the one that matters most. A powerful agent without good guardrails is a liability. A powerful agent with thoughtful guardrails is a force multiplier.
 
 Guardrails deserve more than a bullet point. Most people think about them as restrictions. Don't do X. Don't touch Y. That's part of it. But well-designed guardrails also include escalation paths. When the agent encounters something outside its boundaries, where does it go? Most of my agents have three modes: act, flag, and stop. Act on things within defined parameters. Flag things that are edge cases I haven't handled. Stop entirely and wait for me if something doesn't fit either category.
 
-The instinct is to make guardrails as permissive as possible so the agent can do more. That instinct is backwards. Tighter guardrails make the agent more trustworthy faster. A narrow, well-behaved agent that handles 60% of the work autonomously is more valuable than a broad agent that handles 90% of the work but requires constant supervision because it occasionally does something wrong.
+The instinct is to make guardrails as permissive as possible so the agent can do more. That instinct is backwards. Tighter guardrails make the agent more trustworthy faster. A narrow, well-behaved agent that handles 60% of the work autonomously is more valuable than a broad agent that handles 90% but requires constant supervision because it occasionally does something wrong.
 
 Start narrow. Expand deliberately.
 
@@ -46,7 +46,7 @@ The question I get most often: "How do you trust it?"
 
 The honest answer: carefully, incrementally, with verification.
 
-I didn't wake up one morning and hand an AI agent the keys to my production databases, my email accounts, and my Stripe account. I built trust the same way you'd build trust with a new employee. Gradually. With oversight. Starting with low-stakes tasks.
+I didn't wake up one morning and hand an AI agent the keys to my production databases, my email accounts, and my payment accounts. I built trust the same way you'd build trust with a new employee. Gradually. With oversight. Starting with low-stakes tasks.
 
 The analogy to a new employee is worth taking seriously. When you hire someone, you don't give them production access on day one. You give them read-only dashboards and have them shadow existing processes. Then you give them small tasks with low blast radius. Then you let them operate more independently as they demonstrate good judgment. You're calibrating autonomy to demonstrated competence.
 
@@ -112,7 +112,9 @@ Schedulers are the closest thing to a true employee who just shows up and does t
 
 Most real-world use cases are combinations of these patterns. A monitor detects a condition. It triggers a worker to handle it. The worker reports back on a schedule. You build these like Lego.
 
-One combination I use regularly: a monitor watches my analytics dashboard for anomalies. A traffic spike, a conversion drop, a payment failure rate above a threshold. When the monitor fires, it triggers a worker. The worker pulls the relevant data, runs a diagnostic, and writes a summary of what it found and what it recommends. That summary lands in my inbox by the time I wake up. The whole thing costs me about $4 in API calls per month.
+One combination I use regularly: a monitor watches my analytics dashboard for anomalies. A traffic spike, a conversion drop, a payment failure rate above a threshold. When the monitor fires, it triggers a worker. The worker pulls the relevant data, runs a diagnostic, and writes a summary of what it found and what it recommends. That summary lands in my inbox by the time I wake up.
+
+The whole thing costs me about $4 in API calls per month.
 
 That same pipeline, staffed with a human analyst on-call, would cost at minimum $60K a year for someone junior. A senior analyst would run $120K or more. And the human wouldn't be watching at 2 AM when the anomaly hit. They'd see it in the morning and start the investigation then. By which point I've already read the summary and made a decision.
 
@@ -126,7 +128,7 @@ AI agents doing real business work mostly look boring. Log in, read the data, wr
 
 That mundanity is the point. The 70% of business operations that are routine, repetitive, and rule-following: that's what agents are for. Not the inspiring 30% that requires real judgment. The boring 70% that eats your calendar, drains your energy, and keeps you from doing the work that actually matters.
 
-Free up the 70%, and the 30% becomes your whole job. That's what I've been building toward for seven years. Not AI that's smarter than me. AI that handles the parts I shouldn't be spending my time on anyway.
+Free up the 70%, and the 30% becomes your whole job. That's what I've been building toward for years. Not AI that's smarter than me. AI that handles the parts I shouldn't be spending my time on anyway.
 
 The goal was never a robot that thinks better than I do. The goal was a system that handles the work I was never supposed to be doing in the first place.
 

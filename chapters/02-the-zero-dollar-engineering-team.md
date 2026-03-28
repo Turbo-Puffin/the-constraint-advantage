@@ -4,9 +4,9 @@ Let me tell you about my engineering team.
 
 One of them monitors my production servers 24 hours a day. If something breaks at 3 AM, it diagnoses the issue, writes a fix, deploys it, verifies it's working, and leaves me a summary. I wake up to a message that says "fixed" with a timestamp.
 
-Another one handles customer support emails. It reads every incoming message, triages urgency, drafts responses, and sends the routine ones automatically. The ones that need my judgment get flagged with context so I can respond in thirty seconds instead of ten minutes.
+Another handles customer support emails. It reads every incoming message, triages urgency, drafts responses, and sends the routine ones automatically. The ones that need my judgment get flagged with context so I can respond in thirty seconds instead of ten minutes.
 
-Another manages my social media content. It generates posts from my product data, formats them for each platform, and schedules them across accounts. Different voice for each brand. Different strategy for each channel.
+Another manages social media content. It generates posts from product data, formats them for each platform, and schedules them across accounts. Different voice for each brand. Different strategy for each channel.
 
 Another writes code. Not autocomplete suggestions. Actual features. It reads the codebase, understands the architecture, writes the implementation, runs the tests, and commits the changes. I review and merge.
 
@@ -32,7 +32,7 @@ This is not about trust. It is about architecture. You design the system so that
 
 ---
 
-Here is what the org chart looks like for a traditional startup doing what I do:
+Here is what the org chart looks like for a traditional operation doing what I do:
 
 **CEO/Founder** — that's me in both scenarios
 **CTO** — $180K salary + equity
@@ -49,8 +49,8 @@ Total: roughly $1.15 million in salary alone. Add benefits (20%), office space, 
 My version:
 
 **Me** — same as above
-**AI Agents** — <$1,000/month
-**Infrastructure** — ~$200/month (servers, databases, CDN)
+**AI Agents** — less than $1,000/month
+**Infrastructure** — roughly $200/month (servers, databases, CDN)
 
 Total: roughly $15,000 per year.
 
@@ -62,11 +62,11 @@ That is not a rounding error. That is a 99.3% reduction in operating cost.
 
 Correct. I will be honest about that in Chapter 8. There are things AI agents genuinely cannot do yet, and pretending otherwise is how you end up with a broken product and no customers.
 
-But here is what most people get wrong: they compare the AI to the *ideal* version of a human team. The team where everyone is an A-player, communication is frictionless, nobody quits, nobody has a bad quarter, and the sprint velocity never drops.
+But here is what most people get wrong: they compare the AI to the ideal version of a human team. The team where everyone is an A-player, communication is frictionless, nobody quits, nobody has a bad quarter, and the sprint velocity never drops.
 
 That team does not exist.
 
-Real teams have coordination costs. Real teams have the person who is quiet-quitting but has not told anyone yet. Real teams have the dependency chain where Alice is blocked on Bob who is blocked on Carol who is on PTO. Real teams have the standup meeting that takes 45 minutes because Dave wants to relitigate yesterday's architecture decision.
+Real teams have coordination costs. Real teams have the person who is quiet-quitting but has not told anyone yet. Real teams have the dependency chain where Alice is blocked on Bob who is blocked on Carol who is on PTO. Real teams have the standup meeting that takes 45 minutes because someone wants to relitigate yesterday's architecture decision.
 
 AI agents do not have any of that. They just work. Consistently. Every day. At whatever hour you need them.
 
@@ -76,13 +76,13 @@ Is the output always perfect? No. But it is consistent, it is fast, and it is av
 
 The shift in my thinking happened gradually, then all at once.
 
-I will tell you exactly how it went.
+Here is exactly how it went.
 
 Stage one: I used AI to write boilerplate code. Generate a model, scaffold a route, spit out a migration file. Saved me an hour here and there. Nice. Useful. Still felt like a fancy autocomplete.
 
 Stage two: I used it to generate first drafts of features. Not just scaffolding. Actual logic. Give it the spec, get back something close to working. Saved me a day. I started wondering what else it could do if I gave it more.
 
-Stage three: I connected it to everything. The codebase. The servers. The databases. The email. The calendar. The deployment pipeline. I gave it tools. I gave it context. I gave it *agency.*
+Stage three: I connected it to everything. The codebase. The servers. The databases. The email. The calendar. The deployment pipeline. I gave it tools. I gave it context. I gave it agency.
 
 That is when the mental model broke.
 
@@ -94,9 +94,11 @@ Instead: the monitoring agent detected elevated error rates, traced the root cau
 
 I woke up at seven. Read the summary with my coffee. Merged the fix.
 
+The whole review took four minutes.
+
 I sat there for a full minute just staring at the log.
 
-Not because it was surprising that AI could do it. I knew it could do it. I had built the system to do it. What surprised me was how *normal* it felt. How quickly my brain filed it under "handled" and moved on. How fast "my agent took care of it" became a sentence I said without thinking, the same way you say "my calendar blocked the time" or "my phone backed up overnight."
+Not because it was surprising that AI could do it. I knew it could do it. I had built the system to do it. What surprised me was how normal it felt. How quickly my brain filed it under "handled" and moved on. How fast "my agent took care of it" became a sentence I said without thinking, the same way you say "my calendar blocked the time" or "my phone backed up overnight."
 
 That is the thing nobody tells you about building these systems. The first few times, it feels like a trick. Like something is going to break and you will discover the magic was fake. But then it keeps working. Day after day. And slowly, the wonder wears off. Not because it stops being remarkable. Because it becomes load-bearing infrastructure in your actual life.
 
@@ -104,17 +106,17 @@ My agents are not impressive to me anymore. They are just what handles things.
 
 ---
 
-A month after that Tuesday night, I was on a flight with no wifi. Six hours. Three companies running. No ability to check in, respond to anything, or intervene.
+A month after that Tuesday night, I was on a flight with no wifi. Six hours. Businesses running. No ability to check in, respond to anything, or intervene.
 
 I used to avoid flights like that. The anxiety of being unreachable felt like leaving a stove on.
 
-This time I watched two movies and ate pretzels. Landed to a clean inbox summary, one flagged customer question that needed my voice, and a deployment that had gone out and been verified while I was somewhere over Kansas.
+This time I watched two movies and ate pretzels. Landed to a clean inbox summary, one flagged customer question that needed my voice, and a deployment that had gone out and been verified while I was somewhere over the Atlantic.
 
 That is the day-to-day reality of running this system. It is not dramatic. It is quiet. You do your thinking work. The agents do the execution work. The gap between "I want this to exist" and "this exists" gets very small.
 
 There is a specific kind of cognitive freedom that comes from knowing the routine is covered. I do not spend mental energy wondering if the servers are up. I do not carry a background thread of "I should check the support queue." I do not feel guilty for taking a weekend. The system is running. It will tell me if it needs me.
 
-Most founders I talk to are carrying that weight constantly. The on-call anxiety. The feeling that the moment they look away something will break. That weight is expensive. Not in dollars. In the kind of thinking you cannot do when your brain is half-occupied with operational worry.
+Most founders I talk to carry that weight constantly. The on-call anxiety. The feeling that the moment they look away something will break. That weight is expensive. Not in dollars. In the kind of thinking you cannot do when your brain is half-occupied with operational worry.
 
 I do not carry it. The agents carry it. That might be the ROI that does not show up on the spreadsheet.
 
@@ -124,11 +126,11 @@ The economics are almost unfair.
 
 A senior engineer costs $160K or more per year and can focus on one project at a time. They need context-switching time. They need code review from peers. They need to attend meetings. Realistic productive output: maybe 5-6 hours of actual coding per day, on a good day.
 
-An AI agent costs pennies per task and runs on multiple projects at the same time. It does not context-switch. It runs another instance. It does not need code review from peers. It *is* the reviewer if you want it to be. It does not attend meetings.
+An AI agent costs pennies per task and runs on multiple projects at the same time. It does not context-switch. It runs another instance. It does not need code review from peers. It is the reviewer if you want it to be. It does not attend meetings.
 
 Realistic productive output: as many hours as you have tasks. Twenty-four hours a day, seven days a week.
 
-I am not saying an AI agent is as *good* as a senior engineer at every task. For novel architecture decisions, creative problem-solving, and judgment calls in ambiguous situations, a great human engineer wins every time.
+I am not saying an AI agent is as good as a senior engineer at every task. For novel architecture decisions, creative problem-solving, and judgment calls in ambiguous situations, a great human engineer wins every time.
 
 But for the other 80% of engineering work? The CRUD endpoints, the bug fixes, the test coverage, the documentation, the deployment scripts, the monitoring setup, the dependency updates, the CSS tweaks, the data migrations?
 
@@ -136,7 +138,7 @@ The agent is faster, cheaper, and more consistent. And it does not give two week
 
 ---
 
-I run four companies right now. PFD, Measure.events, Baseline, ForGeorgetown. Different markets, different tech stacks, different customer bases. Zero employees. Zero contractors.
+I run several companies right now. Different markets, different tech stacks, different customer bases. Zero employees. Zero contractors.
 
 That sentence still sounds insane to me sometimes, and I am the one living it.
 
@@ -162,6 +164,6 @@ That assumption made sense for a long time. It does not make sense now.
 
 The costs are real numbers. $15,000 a year versus $2.3 million. That gap does not close. And every month the agents get better while the salaries go up.
 
-I have been running this experiment for seven years. The answer is in. The system works, the companies grow, and the only thing that scales with the work is the infrastructure bill.
+I have been running this experiment for years. The answer is in. The system works, the companies grow, and the only thing that scales with the work is the infrastructure bill.
 
 That is not a side effect of how I built this. That is the whole point.

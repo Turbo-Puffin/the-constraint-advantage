@@ -34,7 +34,7 @@ AI is extraordinarily good at reasoning within established frameworks. It's surp
 
 "Are we building the right product for the right market?" This is where it falls apart. Answering that question requires reconsidering the assumptions that everything else is built on. AI systems optimize within existing frames. They don't challenge the frame. That's not a flaw in a specific model. It's a structural bias in how these systems work.
 
-The decisions that change the direction of a company, the pivot, the product line you kill, the market you enter when everyone thinks you're crazy, the technology bet that looks insane today, require genuine strategic creativity. The ability to look at the evidence and believe something different from what the evidence seems to say. That's still a human capability.
+The decisions that change the direction of a company — the pivot, the product line you kill, the market you enter when everyone thinks you're crazy, the technology bet that looks insane today — require genuine strategic creativity. The ability to look at the evidence and believe something different from what the evidence seems to say. That's still a human capability.
 
 This is also where AI can mislead you in a dangerous way. If you ask it "should I pivot?" it will give you a thoughtful answer synthesized from everything it knows about pivots. That answer will be coherent, well-structured, and often beside the point. Because the right answer depends on things the AI doesn't know and can't fully weigh: the specific texture of your market, your personal runway, whether you still believe in the original thesis, what your gut has been telling you for three months. It will give you a framework when what you need is a decision.
 
@@ -50,7 +50,7 @@ Good product taste. Design taste. Writing taste. The sense that this copy is off
 
 AI can produce work that meets specifications. It can generate competent design, readable copy, functional product flows. It can learn your preferences through feedback and improve. It can get very close.
 
-But taste, the thing that separates good from memorable, is still human. The founders who build products people love aren't just good at execution. They have strong opinions about what the right experience feels like. That opinion cannot yet be fully delegated.
+But taste — the thing that separates good from memorable — is still human. The founders who build products people love aren't just good at execution. They have strong opinions about what the right experience feels like. That opinion cannot yet be fully delegated.
 
 Here's where it gets uncomfortable: most people overestimate their taste.
 
@@ -68,7 +68,7 @@ When the situation is genuinely unprecedented and the stakes are high, AI become
 
 "Should I accept this acquisition offer?" No. That involves your life goals, your risk tolerance, your read on the acquiring team's culture, your attachment to the thing you built, your financial situation, your sense of what you still want to prove. AI can model scenarios. It can list trade-offs. It cannot make the call.
 
-"Is this the right time to fire my only contractor?" Same issue. It involves relationships, timing, reputational considerations, your gut on whether they can turn it around, what message it sends. AI can list pros and cons. It cannot weight them for your specific situation.
+"Is this the right time to end a contractor relationship?" Same issue. It involves relationships, timing, reputational considerations, your gut on whether they can turn it around, what message it sends. AI can list pros and cons. It cannot weight them for your specific situation.
 
 The closer a decision is to irreversible, high stakes, and uniquely human, the more you want a human making it, with AI as a research assistant.
 
@@ -98,7 +98,7 @@ This is called hallucination in the technical literature. I call it the thing th
 
 The practical fix is to treat AI output as a first draft, not a final answer. On anything consequential, verify. Spot-check. Build review steps into your workflows where the stakes are high. Over time you'll develop an instinct for where your specific systems are reliable and where they need a human check. Trust that instinct.
 
-Never, ever use AI output for anything financial, legal, or medical without independent verification. This isn't a limitation you can engineer around with better prompts. It's a structural property of how these systems work right now.
+Never use AI output for anything financial, legal, or medical without independent verification. This isn't a limitation you can engineer around with better prompts. It's a structural property of how these systems work right now.
 
 ---
 
@@ -106,7 +106,7 @@ Never, ever use AI output for anything financial, legal, or medical without inde
 
 The honest picture: AI agents today handle roughly 70% of what a small business needs done, at dramatically lower cost and higher consistency than humans.
 
-The remaining 30%, strategic judgment, relationship-building, taste, irreversible decisions, physical presence, still needs you.
+The remaining 30% — strategic judgment, relationship-building, taste, irreversible decisions, physical presence — still needs you.
 
 That's not a consolation prize. It's the actual point.
 
