@@ -10,9 +10,11 @@ The number of communication channels in a team is **n(n-1)/2**, where n is the n
 - 20 people: 190 channels
 - 50 people: 1,225 channels
 
-This isn't theory. This is physics. Every person you add to a team creates new communication pathways that must be maintained, synchronized, and managed. Every pathway is a potential source of misunderstanding, delay, and conflict.
+Fair warning: this formula describes potential channels, not active friction. A tight team of ten can manage 45 relationships just fine if trust is high and roles are clear. The formula doesn't prove that big teams always fail. It proves that big teams always carry overhead. And overhead compounds.
 
-A 10-person startup has 45 communication channels. Not Slack channels — *relationship channels.* Forty-five pairs of people who need to stay aligned on priorities, context, and decisions.
+Every person you add creates new pathways that need maintenance. Every pathway is a place where context gets lost, decisions get delayed, and misunderstandings breed. A well-run team manages this. Most teams are not well-run.
+
+A 10-person startup has 45 relationship channels. Not Slack channels. Not group chats. Pairs of people who need to stay aligned on priorities, context, and what the word "done" means this week.
 
 You know what has zero communication channels? One person with AI agents.
 
@@ -22,17 +24,17 @@ Zero.
 
 I've worked on teams of every size. Government teams. Startup teams. Agency teams. Enterprise teams.
 
-The pattern is always the same:
+The pattern is always the same.
 
-**Phase 1 (2-3 people):** Everything is fast. Decisions happen in minutes. Everyone knows everything. Shipping is effortless.
+**Phase 1 (2-3 people):** Everything is fast. Decisions happen in minutes. Everyone knows everything. Shipping is effortless. You wonder why anyone would ever make this harder.
 
-**Phase 2 (5-8 people):** Meetings start appearing. Someone creates a "communication protocol." There's a weekly sync that nobody thinks is necessary but everyone attends. Shipping slows down, but you blame it on "growing complexity."
+**Phase 2 (5-8 people):** Meetings start appearing. Someone creates a "communication protocol." There's a weekly sync that nobody thinks is necessary but everyone attends. Shipping slows down, but you blame it on growing complexity. You are wrong. The complexity grew because you grew.
 
-**Phase 3 (10-15 people):** You now have managers. The people who were doing the work are now managing the people who are doing the work. You have a project manager whose job is to coordinate between teams that didn't exist six months ago. Shipping requires approval from three people, one of whom is on vacation.
+**Phase 3 (10-15 people):** You now have managers. The people who used to do the work now manage the people doing the work. You have a project manager whose entire job is to coordinate between teams that didn't exist six months ago. Shipping requires approval from three people, one of whom is always on vacation.
 
-**Phase 4 (20+ people):** You have meetings about meetings. Someone's job title is "Director of Engineering" and they haven't written code in a year. There's an "alignment session" every quarter that costs $50,000 in combined salary-hours and produces a document nobody reads. You've hired a recruiter to help you hire more people to do the work that three people used to do.
+**Phase 4 (20+ people):** You have meetings about meetings. Someone's title is "Director of Engineering" and they haven't written code in a year. There's an alignment session every quarter that costs $50,000 in combined salary-hours and produces a document nobody reads. You've hired a recruiter to help you hire more people to do the work that three people used to do.
 
-Each phase feels necessary from the inside. "We need more people because we're growing." But the growth itself is causing the need for more people. It's circular.
+Each phase feels necessary from the inside. "We need more people because we're growing." But the growth is causing the need for more people. It's circular.
 
 You're not scaling. You're inflating.
 
@@ -40,13 +42,13 @@ You're not scaling. You're inflating.
 
 Fred Brooks wrote about this in 1975. *The Mythical Man-Month.* His core insight: adding people to a late project makes it later. The communication overhead of each new person outweighs their productive contribution.
 
-That was fifty years ago. The book is still relevant because the fundamental problem hasn't changed. Human communication is expensive. Coordination is expensive. Alignment is expensive.
+That was fifty years ago. The book is still relevant because the problem hasn't changed. Human communication is expensive. Coordination is expensive. Alignment is expensive.
 
-What *has* changed is that we now have an alternative.
+What has changed is that we have an alternative now.
 
-AI agents don't need to communicate with each other through meetings. They share state through databases and files. They don't need to "align on priorities" because they have one priority: whatever you told them to do. They don't have opinions about the roadmap. They don't politic for resources. They don't form factions.
+AI agents don't coordinate through meetings. They share state through databases and files. They don't need to align on priorities because they have one priority: whatever you told them. They don't have opinions about the roadmap. They don't politic for resources. They don't form factions.
 
-When I need to build a feature, I don't schedule a meeting to discuss the feature, then a sprint planning session to size the feature, then assign the feature to an engineer who needs two days of context before starting, then a code review meeting when they're done, then a QA cycle, then a deployment approval.
+When I need to build a feature, I don't schedule a kickoff meeting, then a sprint planning session, then assign it to an engineer who needs two days of context before starting, then review it when they're done, then hand it off to QA, then get deployment approval.
 
 I describe the feature. The agent builds it. I review it. It ships.
 
@@ -56,47 +58,61 @@ Start to finish: hours, not weeks.
 
 "But what about complex problems that need multiple perspectives?"
 
-Good question. And it reveals a real advantage of human teams — diverse viewpoints catch blind spots.
+Good question. It reveals a real advantage of human teams. Diverse viewpoints catch blind spots. That's real.
 
-But I'd argue that most of the "multiple perspectives" in team settings are *redundant* perspectives. Eight engineers in a room debating whether to use PostgreSQL or MongoDB aren't bringing eight unique worldviews. They're having the same argument that's been had ten thousand times, and the decision will be made based on whoever is most stubborn or most senior, not on the merits.
+But most "multiple perspectives" in team settings are redundant perspectives. Eight engineers in a room debating PostgreSQL vs. MongoDB aren't bringing eight unique worldviews. They're having the same argument that's happened ten thousand times before. The decision will go to whoever is most stubborn or most senior. Not to the best answer.
 
-The actually valuable perspectives — "this approach has a security flaw," "this won't scale past 10K users," "the customer doesn't actually want this" — don't require eight people. They require *one* person who's thought carefully about it.
+The valuable perspectives, "this approach has a security flaw," "this won't scale past 10K users," "the customer doesn't actually want this," don't require eight people. They require one person who's thought carefully about it.
 
-I get my "multiple perspectives" from AI. I ask it to argue against my approach. I ask it to find flaws. I ask it to consider edge cases I'm missing. I get 90% of the value of a team brainstorm in 5% of the time, with 0% of the politics.
+I get my multiple perspectives from AI. I ask it to argue against my approach. I ask it to find the flaws. I ask it to consider edge cases I'm missing. I get 90% of the value of a team brainstorm in 5% of the time. With 0% of the politics.
 
 ---
 
-Here's the math that made me a believer.
+Here's the evidence that broke my assumptions.
 
-In 2023, Basecamp — the company that literally wrote the book on small teams — had about 75 employees running a business with millions of users.
+Basecamp has roughly 75 employees running a multi-product business with millions of paying users. They've had that headcount for years by design, not by accident. They wrote the book on it. Literally. DHH and Jason Fried have spent decades arguing that headcount is a trap. Their business keeps proving them right.
 
-In 2024, WhatsApp was acquired for $19 billion with 55 engineers.
+Linear built a project management tool that went after Jira and Asana directly. Two products that had hundreds of engineers behind them. Linear shipped with a team small enough to fit in a single room. The product was faster, cleaner, and more opinionated. Users noticed. Linear grew fast because the team stayed small enough to move fast. The small team wasn't a handicap. It was the competitive edge.
 
-Instagram had 13 employees when Facebook bought it for $1 billion.
+Notion built a product used by tens of millions of people. Their engineering team stayed lean for years after they hit scale. When you look at the output per engineer, the numbers don't make sense if you believe the conventional wisdom that more product requires more people.
 
-These are extreme examples, but they prove the point: headcount and output are not correlated the way people assume.
+Vercel built and ran the infrastructure platform that deploys millions of sites globally. For years, their team size would have embarrassed a company with a tenth of their traffic. They scaled infrastructure faster than headcount because they had to. That pressure made them better.
 
-The companies that change industries are almost always small teams that stayed small longer than anyone thought possible. They achieved this by being disciplined about what work actually needs to happen versus what work feels productive.
+These aren't edge cases. These are the companies people actually want to work at and build like.
 
-Most work in most companies is coordination work. It's work about work. Meetings about what to build, documents about what was decided, updates about what's in progress, reviews of what was done.
+The pattern is clear: the teams that move fastest are the teams that stayed disciplined about who they added and why. They treated headcount as a liability, not an asset. Because it is.
 
-Take all that away and what's left? The actual building.
+---
+
+Most work in most companies is coordination work. Work about work. Meetings about what to build. Documents about what was decided. Updates about what's in progress. Reviews of what's already done.
+
+Strip all of that away and what's left? The actual building.
 
 That's what a solo operator with AI agents has. Just the building. No overhead. No drag. No organizational theater.
 
+I ran my first business with a team. Every hire felt like progress. Every new person on the org chart felt like leverage. Then I watched the meetings multiply. The Slack channels multiply. The "who owns this" conversations multiply. The output per person dropped every quarter even as the total headcount climbed.
+
+I ran my next business alone, with tools. No org chart. No coordination layer. No overhead. Output per week went up. I moved faster at month six than I had at month one because I wasn't managing a team. I was just building.
+
+That's not a story about AI. That's a story about what happens when you remove the drag.
+
+AI just makes it permanent. Scalable. Repeatable.
+
 ---
 
-I'm not naive about this. There are companies that genuinely need large teams. If you're building a physical product, you need manufacturing. If you're in healthcare, you need licensed professionals. If you're SpaceX, you need rocket engineers and you can't automate the welding (yet).
+I'm not naive about this. Some businesses genuinely need large teams. If you're building physical products, you need manufacturing. Healthcare requires licensed professionals. If you're SpaceX, you need rocket engineers and nobody's automating the welding yet.
 
-But for software companies? Digital products? Content businesses? Professional services?
+But software? Digital products? Content businesses? Professional services?
 
-The number of people you actually *need* is almost certainly smaller than the number of people you *have.* And for a surprising number of these businesses, the right number might be one.
+The number of people you actually need is almost certainly smaller than the number you have. And for a surprising number of these businesses, the right number might be one.
 
 One person who's clear about what they're building and why.
 
 One person with the right tools.
 
 One person who treats headcount as a last resort, not a first instinct.
+
+The formula at the top of this chapter doesn't lie. More people means more channels. More channels means more overhead. More overhead means slower decisions, slower shipping, and more meetings about why things are slow.
 
 Big teams aren't a feature. They're a bug. A bug we've been shipping for decades because we didn't have a better option.
 

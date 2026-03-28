@@ -42,7 +42,7 @@ If you notice:
 
 ...and these gaps are affecting how customers perceive your product or brand — that's a signal.
 
-The question isn't "can the agent do this?" It's "is the agent's version good enough for where we are now?" Early on, good enough is great. Once you have paying customers with expectations, good enough might not be.
+The question is "is the agent's version good enough for where we are now?" Early on, good enough is great. Once you have paying customers with expectations, good enough might not be.
 
 ---
 
@@ -68,7 +68,7 @@ If the numbers clearly say "hire," then hire. The constraint served its purpose 
 
 I'll be honest about this because nobody else in the "solo operator" space seems willing to.
 
-Working alone is hard. Not the tactical stuff — the emotional stuff. There's no one to celebrate wins with. No one to share the weight of a bad week. No one who understands the specific context of what you're building.
+Working alone is hard. Not the tactical stuff. The emotional stuff. There's no one to celebrate wins with. No one to share the weight of a bad week. No one who understands the specific context of what you're building.
 
 AI agents are incredible collaborators. They are not companions. They don't care about your wins. They don't share your anxiety. They don't push back on your ideas because they believe something different.
 
@@ -106,6 +106,52 @@ That's a fundamentally different hiring decision than "we need to grow the team.
 
 ---
 
+## The Exit Question
+
+Smart readers will ask this at some point, so let's address it directly.
+
+If your company runs on AI agents and you have zero employees, what are you actually selling when someone wants to acquire you?
+
+This is a fair question. The honest answer depends on what kind of business you built.
+
+If you built a SaaS product with revenue, subscribers, and retention — you're selling the product, the customers, and the cash flow. The agent stack is infrastructure. A buyer acquires the MRR, the brand, the code, and the customer relationships. The fact that you ran it solo with agents is a feature, not a liability. It means the margins are clean. There's no HR overhead, no payroll to untangle, no team politics baked into the org chart.
+
+The agent stack is also easier to document and transfer than a team of humans. You can write down every workflow, every prompt, every integration. A buyer can read it, run it, and inherit it. You can't do that with institutional knowledge locked in employees' heads.
+
+That said, be clear-eyed about what this model optimizes for. A solo AI-powered business is built for operating income, not necessarily for acquisition multiples. If your exit thesis is "build something a strategic buyer will pay 10x revenue for," you may need to grow in ways this model doesn't naturally support. Strategic buyers often want teams, roadmaps, scalable headcount, a management layer they can integrate.
+
+If your exit thesis is "build profitable cash flow I can eventually sell for a clean 3-4x to a financial buyer or solo operator like me" — this model is excellent for that. The books are simple. The costs are low. The margins are high. There's no team to retain, no culture to preserve, no competing offers to manage.
+
+Know which exit you're building toward. Then build accordingly.
+
+If you're building for lifestyle and operating income, the solo model works beautifully and the eventual exit is clean. If you're building for a transformational acquisition at a premium multiple, you'll likely need to evolve the model before you get there. Neither path is wrong. Just be intentional.
+
+---
+
+## Concentration Risk
+
+Here's the other question worth asking out loud, because if I don't, you will.
+
+What happens if Anthropic doubles prices overnight? What if the AI models you depend on get regulated, degraded, or discontinued? What if the entire infrastructure you've built on top of third-party AI gets disrupted?
+
+These are real risks. Ignoring them would make this book feel naive.
+
+Here's how I think about it.
+
+First, diversify across models. My agent stack doesn't run on a single provider. Different tasks use different models based on cost and capability. Support triage runs on a cheaper model. Code generation uses a more capable one. This isn't just about optimizing cost — it's about not having a single point of failure. If one provider raises prices or degrades quality, I can shift workloads without rebuilding from scratch.
+
+Second, keep your cost base low enough that a significant price increase is still cheaper than the alternative. Right now I spend roughly $200-400 per month on AI across all my businesses. If that quintupled to $2,000, I'd still be operating at a fraction of the cost of a single full-time hire. The math doesn't break until prices increase by an order of magnitude that would signal something much larger happening in the industry.
+
+Third, build systems that can swap models. The best agent architectures are model-agnostic at the interface level. You're passing instructions and getting outputs. If you've built tight dependencies on specific model behaviors or proprietary features, you've taken on concentration risk. If your system can point to a different model endpoint and keep running, you haven't.
+
+Fourth, the regulatory risk is real but manageable. If a government bans or heavily restricts AI in ways that affect business operations, that affects your competitors equally. The solo operator running on AI faces the same regulatory environment as the funded startup running on AI. You're not uniquely exposed. You're proportionally exposed.
+
+The honest summary: this model has concentration risk in the same way that a business built on AWS has concentration risk, or a business built on Stripe has payment risk. You manage it by having contingency thinking, by diversifying where you can, and by keeping your unit economics strong enough that disruptions are expensive but survivable.
+
+One provider going down doesn't break the thesis. It creates an annoying Tuesday.
+
+---
+
 ## What Comes Next
 
 If you've read this far, you're either already running lean or thinking about it.
@@ -117,5 +163,3 @@ Start with your constraints. Build your agent stack. Ship faster than your compe
 And when the time comes to break a constraint — break it on purpose, with clear eyes, knowing exactly why.
 
 The constraint advantage isn't about staying small. It's about being intentional about how you grow.
-
-That's the whole game.

@@ -2,7 +2,7 @@
 
 Theory is nice. Here's what it actually looks like.
 
-This is a real day. Not a perfect day — a real one. With interruptions, decisions that didn't go well, and the kind of friction that no amount of AI eliminates completely.
+This is a real day. Not a perfect one. With interruptions, decisions that didn't go well, and the kind of friction that no amount of AI eliminates completely.
 
 ---
 
@@ -12,7 +12,7 @@ I don't check my phone first thing. Not because of some wellness guru advice. Be
 
 I know there's a morning briefing waiting for me. It was generated at 6:00 AM by my agent. It's in Discord. It can wait 30 minutes.
 
-Coffee. Think about what matters today. Not what's urgent — what matters.
+Coffee. Think about what matters today. Not what's urgent. What matters.
 
 ---
 
@@ -54,7 +54,7 @@ This is protected time. No meetings. No Discord. No email.
 
 Today I'm working on the thing that matters most this week: redesigning the onboarding flow for Measure.events. User data shows 40% of signups don't complete setup. That's the bottleneck.
 
-This is the work that only I can do. Not because it's technically complex — the agent could write the code. But because the *decision* about what the onboarding should feel like, what it should prioritize, what to cut — that's product judgment. That's taste.
+This is the work that only I can do. Not because it's technically complex. The agent could write the code. But the *decision* about what the onboarding should feel like, what it should prioritize, what to cut — that's product judgment. That's taste.
 
 I sketch the new flow on paper. Five steps instead of nine. Remove the steps that ask for information I can infer later. Add a "here's your first insight" moment within 60 seconds of signup.
 
@@ -65,7 +65,7 @@ Once the design is clear in my head, I describe it to my coding agent. I give it
 ## 10:15 AM — Check-In (10 minutes)
 
 Quick scan of what happened in the last 3 hours:
-- The coding agent has a PR ready for the onboarding redesign. It's 80% of what I described. Two things need adjustment — I leave comments on the PR.
+- The coding agent has a PR ready for the onboarding redesign. It's 80% of what I described. Two things need adjustment. I leave comments on the PR.
 - A new support ticket came in: a customer can't reset their password. The agent resolved it automatically with a password reset link and a note explaining the process.
 - My LinkedIn post from this morning got 23 likes and 4 comments. One comment asks a thoughtful question. I reply personally.
 
@@ -136,9 +136,65 @@ I write a quick note in my daily memory file about the onboarding redesign decis
 
 ---
 
+## What a Bad Day Looks Like
+
+Most days aren't that day.
+
+Some days the system gets stressed. Not catastrophically. Just the particular kind of Thursday where everything is slightly wrong and you're one more thing away from making a bad decision.
+
+Here's what that looks like.
+
+I wake up to a Slack notification. The monitoring agent flagged an anomaly at 4:17 AM. Measure.events signup completions dropped to zero. Not slow — zero. Something broke in the onboarding flow I deployed yesterday.
+
+The morning briefing is waiting but I skip it. I go straight to the issue.
+
+The agent surfaced the error: a database migration ran but didn't finish. Half the new signups have incomplete records. The signup form is silently failing for anyone who started after 11 PM.
+
+This takes real attention. Not agent attention. My attention.
+
+I roll back the migration, write a fix, test it locally, push it. The agent runs the deployment. Forty minutes gone. It's 7:50 AM and I haven't looked at anything else yet.
+
+Then I check what I missed. During those 40 minutes: two new support tickets from users who tried to sign up and got no confirmation email. The agent drafted responses. They're technically correct but they don't acknowledge that we broke something. I rewrite them personally. Take ownership. Apologize directly.
+
+It's now 8:30 AM.
+
+A client emails about the Baseline site I'm building. They attached 47 photos. The brief said 10. They want all 47 on the homepage. I need to explain, carefully, that a homepage with 47 photos is not a homepage. That call goes on my list for after lunch because I need to be calm for it.
+
+The deep work block I had planned — the pricing redesign for Measure.events — doesn't happen. I spend that time doing a proper postmortem on the deployment failure. What did I miss in testing? What should the agent check before merging a migration PR? I write two new rules into the deployment checklist. The agent will enforce them next time.
+
+By noon I've done 0% of what I planned and 100% of what actually needed doing.
+
+Lunch happens. Shorter than usual.
+
+The client call about the photos goes okay. She picks 12. I mark the project back on track.
+
+The afternoon is catch-up. The newsletter still went out at 2 PM — I'd approved it the night before. The social posts still published. The cold outreach still sent. All of that ran without me while I was in the weeds.
+
+By 4:00 PM the wrap-up looks like this:
+- Production incident: resolved, 40 minutes
+- Support tickets: 9 total, 7 handled automatically, 2 rewritten by me
+- Revenue: $0 new (no sales calls today, no new subscriptions yet)
+- Deep work: 0 hours
+- Administrative: 2 hours of firefighting
+- Content: published on schedule regardless
+
+That last part matters. On a day when I was heads-down in a production problem all morning, the content still went out. The emails still got answered. The business kept running while I dealt with the thing that needed dealing with.
+
+Total damage: one lost deep work block, two rewritten support emails, one postmortem doc, and a slightly shorter lunch.
+
+In the old model — solo founder with no systems, no agents — a production incident at 4 AM meant a full day lost. Customer emails piling up. Content not published. The whole thing grinding to a halt while you fought one fire.
+
+The agents don't prevent bad days. They contain them.
+
+The production issue still needed me. The client still needed a human conversation. The postmortem still needed my judgment about what to change.
+
+But everything that didn't need me kept moving anyway.
+
+---
+
 ## What This Day Represents
 
-Total working time: approximately 7.5 hours.
+Total working time: approximately 7.5 hours (on a good day).
 
 Of that:
 - Deep product work: 5 hours (the work that builds value)

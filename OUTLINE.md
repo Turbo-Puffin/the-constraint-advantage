@@ -1,5 +1,5 @@
 # The Constraint Advantage
-## How to Run Multiple Companies with Zero Employees
+## The Solo Operator's Playbook
 ### By Matthew Crist
 
 **Price:** $39
