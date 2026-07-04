@@ -1,92 +1,98 @@
-# The Constraint Advantage — Outline v4
+# The Constraint Advantage — Outline v5 (CANONICAL)
 
-_Fletcher, 2026-06-10. v3 + Matt's "maybe a few more chapters?" → added **six** chapters that genuinely belong in the dad/love-story frame (not padding), plus two bench ideas he can promote if he wants. Now **18 chapters + close**, ~48–58k words. Chapters stay short and punchy (2.5–3.5k words each) — more rooms, same house. Engine unchanged: love story for his wife and kids, regret as fuel, wit and profanity, the regret rule from v3._
+_Fletcher, 2026-07-04. Blessed by Matt same night: "All previous outlines and drafts are deleted in my mind. We're starting at v5." Everything before this is archive (`archive/`). The manuscript gets written fresh against this outline._
+
+**Working subtitle: "Simplify to Find Peace"** — the tagline Matt locked for the whole personal brand (6/13); book, hub, and Uncluttah become one sentence said three ways.
 
 ---
 
 ## The spine
-**Simplicity and constraints → peace → success.** Love story underneath; regret in specifics, never speeches; never by name; ends in recovered time.
+
+**Your life is cluttered in every dimension, not just the garage. Clutter is chaos on a payment plan — every cluttered domain bills you a little, forever. Constraint is the decision that stops the billing. Peace is what's left.**
+
+Underneath it, the whole book is a love story for his wife and kids, fueled by regret over missed time. The reader is the overloaded dad. Success is a receipt, not the destination.
+
+## Drafting discipline (unchanged, non-negotiable)
+
+- **The regret rule:** regret in specifics, never speeches; wit beside the wound; regret is fuel, not the destination. Never family names — "my wife" / "my kids"; the dedication carries it.
+- **Tone dial (Matt, 6/10):** "lighter than heavy. Wittier than drab. And curse occasionally." One gut-punch image, then back to funny; profanity about one peak per chapter.
+- **Truth rules:** first person = verified-true only. Invented vivid scenes run in **second person**. `[STORY SLOT]` brackets wait for Matt's real details. No invented stats — the "300,000 objects" figure is out (Uncluttah rule); say "a lot" and make it land harder.
+- Voice source = the locked voice signature v2 (2015–18 essays canonical). Chapters short and punchy, 2.5–3.5k words. ~50–60k words at full weight.
 
 ---
 
-## PART I — GOING TOO HARD. (the problem)
+## PART I — THE CHAOS. (the problem: a cluttered life in every dimension)
 
 ### 1. You're not behind. You're carrying too much.
-Cold open: **[STORY — the regret moment. Still the blocker for drafting.]** The reader's condition named, the chain stated, the quiet promise: this is a love story told by a guy who got the math wrong for a while.
+Cold open: **[STORY — the regret moment. Still the blocker for this chapter.]** The reader's condition named, the chain stated, the quiet promise: this is a love story told by a guy who got the math wrong for a while.
 
 ### 2. The lie of more.
-The provider script — going hard = loving them — dismantled with the receipts of what "more" actually bought. **[STORY: consulting years, reframed as what they cost at home.]** _Optional union-day sidebar._
+The origin story of the accumulation — the provider script ("going hard = loving them") dismantled with the receipts of what "more" actually bought, hour by hour. **[STORY: consulting years, what they cost at home.]**
 
-### 3. ★NEW — The scoreboard.
-Why dads go too hard: they're keeping score against other men. The neighbor's renovation, the college roommate's exit, the guy at pickup whose kid does three travel teams. Comparison is noise wearing a suit — a scoreboard you didn't choose, measuring a game you don't even want to win. The chapter's turn: nobody at your funeral reads the scoreboard; the people in the front row kept a different one the whole time. Regret beat: the seasons spent winning at the wrong game.
+### 3. Everything is a junk drawer.
+The thesis chapter. The reader thinks clutter is a garage problem; walk him through one ordinary Tuesday and show him the same junk drawer everywhere — the calendar (obligations nobody remembers agreeing to), the phone, the head (open loops, the mental "someday" shelf), the group text, the subscriptions bleeding $14.99 at a time, the inbox. Same disease, different rooms: things kept without a decision, each making a small claim on him, forever. The operating metaphor gets installed here: **clutter bills you.** The turn: you can't organize your way out — every domain needs the same move, subtraction by rule, and that's the rest of the book. This is not a tidying book; it's de-cluttering a life.
 
-### 4. ★NEW — Starting over without burning it down.
-The hope chapter, straight from Matt: **"we can talk about starting over without giving EVERYTHING up. Even at 49."** The fantasy every overloaded dad has rehearsed: torch it — quit the job, sell the house, cabin in the woods. The chapter calls that what it is: the same maximalist disease in a flannel shirt (giving up everything is just "more," inverted). The real move is starting over *in place* — same house, same family, same mortgage, different rules. Constraints are how a 49-year-old rebuilds a life without detonating the one thing in it that was never the problem: them. Regret beat: the years spent thinking it was too late, which were themselves the cost. This is also the chapter that separates the book from backpack-minimalism for good.
+### 4. The scoreboard.
+Why the clutter got in: comparison is the intake valve. The neighbor's renovation, the roommate's exit, the guy at pickup whose kid does three travel teams — somebody else's life was the shopping list. Nobody at your funeral reads the scoreboard; the people in the front row kept a different one the whole time. Regret beat: the seasons spent winning at the wrong game.
 
-### 5. A constraint is a decision you only make once.
-The concept chapter closes Part I. Chosen limits as pre-made decisions; why willpower fails and constraints don't. Aphorism chapter.
+### 5. Starting over without burning it down.
+The hope chapter. The fantasy every overloaded dad has rehearsed — torch it, quit, sell the house, cabin in the woods — called what it is: the same maximalist disease in a flannel shirt. The real move is starting over *in place* — same house, same family, same mortgage, different rules. Even at 49. Regret beat: the years spent thinking it was too late, which were themselves the cost. Separates the book from backpack-minimalism for good.
 
-## PART II — CHOOSING YOUR LIMITS. (the practice — each chapter: one regret beat, one recovery beat)
+### 6. A constraint is a decision you only make once.
+The tool, formally introduced. Chosen limits as pre-made decisions; willpower is a recurring bill, a constraint is paid in full at signing. Aphorism chapter. Closes Part I.
 
-### 6. Money: the fixed budget.
-**[STORY: Boston fixed-budget.]** Money stress as ambient noise in a marriage; the fixed number as an act of love — the conversation happens once, on purpose, instead of forever, by accident.
+## PART II — THE PURGE. (the practice, domain by domain — each chapter: name the clutter, the constraint that kills it, one regret beat, one recovery beat)
 
 ### 7. Stuff: empty the goddamn house.
-The purge he and his wife did together — a renegotiation of what the family's one life is for. Recovery beat: the room that became a place instead of a storage problem.
+The flagship practice chapter and the template every other one reuses — the purge he and his wife are actually doing, room by room, together. Physical stuff leads because it's the clutter you can see; every later chapter points back: "the calendar is the garage, again." A full house is a full head; the house should hold the people, not the inventory between them. Recovery beat: the room that went quiet — a place instead of a storage problem. **[STORY SLOTS: the room that started it · the hardest category · the find that stopped you both cold · the kid-and-the-purge moment.]**
 
-### 8. Time: the calendar is not a Tetris board.
-The chapter where regret bites hardest — no buyback on time. **[STORY: over-scheduled stretch, what got cut.]** The standing no; the empty slot you defend like a meeting with the CEO, because it is — she's eleven.
+### 8. Money: the fixed budget.
+Opens on financial clutter — the seventeen subscriptions, the accounts nobody reconciles, money chaos as ambient noise in a marriage. **[STORY: Boston fixed-budget.]** The fixed number as an act of love: the conversation happens once, on purpose, instead of forever, by accident.
 
-### 9. Attention: the world is engineered against you.
-The feeds aren't stealing "your time," they're stealing the last hour that belonged to the people watching you scroll. Counter-engineering the defaults as protection.
+### 9. Time: the calendar is not a Tetris board.
+Calendar clutter; the chapter where regret bites hardest — no buyback on time. **[STORY: the over-scheduled stretch, what got cut.]** The standing no; the empty slot you defend like a meeting with the CEO, because it is — she's eleven.
 
-### 10. ★NEW — People: shrink the circle.
-The social calendar is a junk drawer: obligations nobody remembers agreeing to, friendships running on guilt-fumes, the neighborhood thing you attend so nobody talks. Fewer people, on purpose, gets you two things — actual friends (the 2am-call kind) and your weekends back. The wit carries this one (everyone recognizes the group text they're afraid to leave); the turn: your kids learn what friendship is by watching which doorbells you answer. Recovery beat: the standing Sunday that became sacred because everything else got cut.
+### 10. Attention: the world is engineered against you.
+Digital clutter. The feeds aren't stealing "your time," they're stealing the last hour that belonged to the people watching you scroll. Counter-engineering the defaults as protection.
 
-### 11. ★NEW — The tank: you are also a finite resource.
-The body chapter — and his oldest stance in writing (anti-midnight-oil, since 2015: "you can get more done in 7 hours on a full night's sleep"). Sleep traded for hustle, the third coffee, the drink that helps you "switch off," the dad bod nobody chose. Not a fitness chapter — a constraints chapter: hard edges on the day (sleep as a meeting you don't move) because a depleted man is *technically present and functionally gone*, which is the regret from chapter 1 wearing gym shorts. Recovery beat: the morning he was actually awake for.
+### 11. The head: open loops and unmade decisions.
+Mental clutter — the clutter you can't donate. Two movements: **decisions** (defaults, uniforms, the same breakfast; every open choice is an object on the floor of your head) and **inputs** (news, podcasts, the research rabbit hole as productive-feeling avoidance — hoarding information is the intellectual's storage unit). The constraint: decide once, subscribe to almost nothing, let the head have empty shelves. Recovery beat: the first quiet drive with the radio off.
 
-### 12. Leverage: make the machines do the boring parts.
-AI pointed at LESS. Photo → agent lists it → "it sold." The robot buys back Tuesday evening — name the recipient. Solo-operator receipt at anecdote scale. Guardrail: automation you babysit is another commitment.
+### 12. People: shrink the circle.
+Social clutter: the group text you're afraid to leave, obligations nobody remembers agreeing to, friendships running on guilt-fumes. Fewer people, on purpose, buys actual friends (the 2am-call kind) and your weekends back. The turn: your kids learn what friendship is by watching which doorbells you answer. Recovery beat: the standing Sunday that became sacred.
 
-### 13. Work: small is not a compromise.
-**[STORY: consulting → City of Boston, meaning over more.]** Fewer projects, deeper work, professionally unimpressive and personally present.
+### 13. The tank: you are also a finite resource.
+The body chapter — his oldest stance in writing (anti-midnight-oil, since 2015). Sleep traded for hustle, the third coffee, the drink that helps you "switch off." Not a fitness chapter — a constraints chapter: hard edges on the day, sleep as a meeting you don't move, because a depleted man is technically present and functionally gone. Recovery beat: the morning he was actually awake for.
 
-## PART III — SUCCESS THROUGH PEACE. (the payoff)
+### 14. Leverage: make the machines do the boring parts.
+AI pointed at LESS. Photo → agent lists it → "it sold." The robot buys back Tuesday evening — name the recipient. Guardrail: automation you babysit is another commitment, which is to say, more clutter.
 
-### 14. ★NEW — The person you promised your evenings to.
-The marriage chapter — the love story's center of gravity, and the chapter the v3 directive was practically asking for. She watched the going-too-hard years from the closest seat; she got the leftovers of his attention and called it a partnership anyway. Regret beat: the years she was effectively a single parent with a roommate who paid bills. The turn: simplifying isn't something he did *near* her, it's something they did *together* — and the first dividend of every constraint in Part II was an evening, and the evenings were for her. No names; the reader will know. Wit stays in the room (marriage is funny) but this chapter and ch. 15 are the book's tender core.
+### 15. Work: small is not a compromise.
+Professional clutter. **[STORY: consulting → City of Boston, meaning over more.]** Fewer projects, deeper work — professionally unimpressive and personally present.
 
-### 15. What peace actually buys.
-The kids chapter. Presence — being where you are. The undertone becomes the text. The wit mostly stands down.
+## PART III — THE QUIET HOUSE. (the payoff: what the peace is for)
 
-### 16. ★NEW — Watching you.
-The legacy chapter: kids don't learn from what you say about work and life — they learn from watching what you answer first, the phone or them. A dad who models "more at all costs" raises kids who go too hard; a dad who models chosen limits hands them the cheat code early — the inheritance that isn't money. Regret beat: catching your own habits in your kid's hands. Recovery beat: the day one of them said no to something, on purpose, and it was obviously learned.
+### 16. The person you promised your evenings to.
+The marriage chapter — the love story's center of gravity. She watched the going-too-hard years from the closest seat and called the leftovers a partnership anyway. The turn: simplifying isn't something he did *near* her, it's something they did *together* — the first dividend of every constraint in Part II was an evening, and the evenings were for her. No names; the reader will know. Wit stays in the room, but this and ch. 17 are the tender core.
 
-### 17. The receipts.
-Peace as input, success as output. Career numbers, sure — but the headline receipt is the family that got him back. The chain closes with both currencies.
+### 17. What peace actually buys.
+The kids chapter. Presence — being where you are; the undertone becomes the text; the wit mostly stands down. Carries a short closing movement: and yes, the career got better too — the work got sharper when the head got quiet. One page of receipts, then back to the people in the front row. Success is a receipt, not the destination; you don't purge the house to raise revenue.
 
-### 18. When to break the rule.
-Constraints are a tool, not a religion. Renegotiating a stale limit with your family. Inoculates the book against its own dogma.
+### 18. Watching you.
+The legacy chapter. Kids learn from watching what you answer first, the phone or them. A kid who watches boxes leave the house learns the inflow is optional — that stuff is a decision. The inheritance that isn't money. Regret beat: catching your own habits in your kid's hands. Recovery beat: the day one of them said no to something, on purpose, and it was obviously learned.
+
+### 19. When to break the rule.
+Constraints are a tool, not a religion. Renegotiating a stale limit with your family. Inoculates the book against its own dogma — and against minimalism-as-identity, this frame's nearest cult.
 
 ### Close: Monday.
-Two pages. Pick one limit, make it, tell the people it's for. Last line pointed at them. Dedication page carries the love story in full.
+Two pages. Pick one limit, make it, tell the people it's for. Last line pointed at them. The dedication page carries the love story in full.
 
 ---
 
-## Bench (not installed — promote if wanted)
-- **Decisions: shrink your choices** — defaults, uniforms, the same breakfast; decision fatigue as a tax on presence. (Currently covered conceptually in ch. 5; could become its own battlefield.)
-- **Inputs: you don't need more information** — news, podcasts, the research rabbit hole as productive-feeling avoidance. (Currently folded into ch. 9.)
-
-## Changes from v3
-1. **+6 chapters:** The scoreboard (3), Starting over without burning it down (4 — from his follow-up: "starting over without giving EVERYTHING up. Even at 49"), People: shrink the circle (10), The tank (11), The person you promised your evenings to (14), Watching you (16).
-2. The marriage now has its own chapter instead of living only in the weave — the love-story directive demanded it.
-3. 18 chapters + close, ~48–58k words; chapters stay short and punchy.
-
 ## Open with Matt
-- **The regret moment** (still blocks ch. 1).
-- Cut/keep on the five new chapters + bench promotions.
-- Subtitle (my pick: "Finding Success Through Peace") · "Dads" on the cover (rec: yes) · story inventory whenever.
+- **The regret moment** (blocks ch. 1's cold open — the most important story slot in the book).
+- Story inventory whenever — every filled slot makes the next pass better.
+- Subtitle "Simplify to Find Peace" is working; say the word if it's locked.
 
 ## Next step
-Regret moment lands → chapter 1 drafted in his voice = proof-of-voice test → roll.
+Draft fresh against this outline, chapter by chapter. Ch. 3 goes first (the thesis chapter = proof of frame), then Part II in order; ch. 1 waits on the regret moment.
