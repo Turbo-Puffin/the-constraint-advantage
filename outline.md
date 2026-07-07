@@ -2,7 +2,7 @@
 
 _Fletcher, 2026-07-04. Blessed by Matt same night: "All previous outlines and drafts are deleted in my mind. We're starting at v5." Everything before this is archive (`archive/`). The manuscript gets written fresh against this outline._
 
-**Working subtitle: "Simplify to Find Peace"** — the tagline Matt locked for the whole personal brand (6/13); book, hub, and Uncluttah become one sentence said three ways.
+**Subtitle LOCKED (Matt, 7/7: "Perfect."): "Simplify to Find Peace"** — the tagline he locked for the whole personal brand (6/13); book, hub, and Uncluttah are one sentence said three ways.
 
 ---
 
@@ -24,7 +24,7 @@ Underneath it, the whole book is a love story for his wife and kids, fueled by r
 ## PART I — THE CHAOS. (the problem: a cluttered life in every dimension)
 
 ### 1. You're not behind. You're carrying too much.
-Cold open: **[STORY — the regret moment. Still the blocker for this chapter.]** The reader's condition named, the chain stated, the quiet promise: this is a love story told by a guy who got the math wrong for a while.
+Cold open: **[STORY — the regret moment. Matt's seed (7/7): "Falling into the trap of consumption." That's the THEME; the cold open still needs the specific scene — a day, a purchase, a moment he was somewhere else because of the chase. Regret rule: specifics, not speeches.]** The reader's condition named, the chain stated, the quiet promise: this is a love story told by a guy who got the math wrong for a while.
 
 ### 2. The lie of more.
 The origin story of the accumulation — the provider script ("going hard = loving them") dismantled with the receipts of what "more" actually bought, hour by hour. **[STORY: consulting years, what they cost at home.]**
@@ -90,9 +90,8 @@ Two pages. Pick one limit, make it, tell the people it's for. Last line pointed 
 ---
 
 ## Open with Matt
-- **The regret moment** (blocks ch. 1's cold open — the most important story slot in the book).
+- **The regret moment, the scene** (blocks ch. 1's cold open — the most important story slot in the book). His seed (7/7): falling into the trap of consumption. Needed: the specific moment that shows it.
 - Story inventory whenever — every filled slot makes the next pass better.
-- Subtitle "Simplify to Find Peace" is working; say the word if it's locked.
 
 ## Next step
 Draft fresh against this outline, chapter by chapter. Ch. 3 goes first (the thesis chapter = proof of frame), then Part II in order; ch. 1 waits on the regret moment.

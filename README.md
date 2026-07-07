@@ -1,5 +1,5 @@
 # The Constraint Advantage
-### Simplify to Find Peace (working subtitle) — Matthew Crist
+### Simplify to Find Peace — Matthew Crist
 
 **Status: fresh start at outline v5, 2026-07-04.** Matt's call, same night the reframe shipped: "All previous outlines and drafts are deleted in my mind. We're starting at v5." The manuscript is being written fresh against [`outline.md`](outline.md) — nothing in `manuscript/` predates v5.
 
